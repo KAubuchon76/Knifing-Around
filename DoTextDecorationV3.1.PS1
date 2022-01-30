@@ -19,7 +19,7 @@ $phi_delta = 0.07655
 $html_text = $Null
 
 # Create an index variable corresponding to the length of the input string.
-# I started the index at zero (because of the substring method), so needed to subtract rom the total length of the string.
+# I started the index at zero (because of the substring method), so needed to subtract from the total length of the string.
 $stringIndex = 0..([int]$string.Length - 1)
 
 # Create a foreach loop to loop through the string index.
